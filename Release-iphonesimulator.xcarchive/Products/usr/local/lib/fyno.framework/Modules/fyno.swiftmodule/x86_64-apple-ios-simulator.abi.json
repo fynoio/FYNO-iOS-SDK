@@ -440,6 +440,64 @@
           },
           {
             "kind": "Function",
+            "name": "registerInapp",
+            "printedName": "registerInapp(integrationID:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<Swift.Bool, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<Swift.Bool, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4fynoAAC13registerInapp13integrationID17completionHandlerySS_ys6ResultOySbs5Error_pGctF",
+            "mangledName": "$s4fynoAAC13registerInapp13integrationID17completionHandlerySS_ys6ResultOySbs5Error_pGctF",
+            "moduleName": "fyno",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "identify",
             "printedName": "identify(newDistinctId:userName:completionHandler:)",
             "children": [
@@ -1194,17 +1252,10 @@
     },
     {
       "filePath": "\/Users\/viramjain\/workspace\/ios-sdk\/Sources\/fyno\/FynoUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 1478,
-      "length": 22,
-      "value": "\"callback.dev.fyno.io\""
-    },
-    {
-      "filePath": "\/Users\/viramjain\/workspace\/ios-sdk\/Sources\/fyno\/FynoUtils.swift",
-      "kind": "StringLiteral",
-      "offset": 1532,
-      "length": 18,
-      "value": "\"callback.fyno.io\""
+      "kind": "Array",
+      "offset": 1479,
+      "length": 132,
+      "value": "[\"callback.dev.fyno.io\", \"callback.fyno.io\", \"callback.dev.eu.fyno.io\", \"callback.eu.fyno.io\"]"
     },
     {
       "filePath": "\/Users\/viramjain\/workspace\/ios-sdk\/Sources\/fyno\/Payload.swift",
